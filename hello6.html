@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script>
+var str="Thisisastring";
+var count=0;
+var i;
+for(i=0;i<str.length;i++)
+{
+  var letter=str[i].toLowerCase();
+  if(letter=="a"||letter=="e"||letter=="i"||letter=="o"||letter=="u")
+  {
+    count++;
+  }
+}
+document.write("Vowel : " +count+"Consonant : "+(str.length-count)+"<br>");
+document.write(str+"<br>");
+    </script>
+</head>
+<body>
+</body>
+</html>

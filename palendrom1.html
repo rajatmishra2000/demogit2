@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script>
+var num=1551;
+var num1;
+var cube=0;
+var num2=num;
+var i;
+while(num != 0)
+{
+    num1=num%10;
+    num=Math.trunc(num/10);
+    cube=cube*10+num1;
+}
+if(num2 == cube)
+{
+    document.write("Given number is an palendrom number");
+}
+else
+{
+    document.write("Given number is not an palendrom number");
+}
+    </script>
+</head>
+<body>
+</body>
+</html>
